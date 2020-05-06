@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 Float num1 = Float.parseFloat(First_No.getText().toString());
                 Float num2 = Float.parseFloat(Second_No.getText().toString());
                 Float res = num1 + num2;
-                output.setText(String.valueOf(res));
+                output.setText(String.valueOf(res + ""));
             }
         });
 
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 Float num1 = Float.parseFloat(First_No.getText().toString());
                 Float num2 = Float.parseFloat(Second_No.getText().toString());
                 Float res = num1 - num2;
-                output.setText(String.valueOf(res));
+                output.setText(String.valueOf(res + ""));
             }
         });
 
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 Float num1 = Float.parseFloat(First_No.getText().toString());
                 Float num2 = Float.parseFloat(Second_No.getText().toString());
                 Float res = num1 * num2;
-                output.setText(String.valueOf(res));
+                output.setText(String.valueOf(res + ""));
             }
         });
         dvdbtn.setOnClickListener(new View.OnClickListener() {
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else {
                     Float res = num1 / num2;
-                    output.setText(String.valueOf(res));
+                    output.setText(String.valueOf(res + ""));
                 }
             }
         });
